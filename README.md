@@ -2,7 +2,7 @@
 
 > AI-powered football prediction engine built by a team of ML engineers and data scientists.
 > The model is fully open source — no black box, no hidden logic. Read the code. Run it yourself. We have nothing to hide.
-
+> **Telegram: [@FootballGPT_AR](https://t.me/FootballGPT_AR) | Contact: [@nuamansp](https://t.me/nuamansp)**
 ---
 
 ## 🤖 What is FootballGPT?
