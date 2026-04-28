@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>FOOTBALL PREDICTIONS</title>
+    <meta name="description" content="" />
+    <meta name="author" content="Tooplate" />
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/tooplate-style.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+  </head>
+  
+  <body>
+    <div id="page-wraper">
+      <!-- Sidebar Menu -->
+      <div class="responsive-nav">
+        <i class="fa fa-bars" id="menu-toggle"></i>
+        <div id="menu" class="menu">
+          <i class="fa fa-times" id="menu-close"></i>
+          <div class="container">
+            <div class="image">
+              <a href="#"><img src="assets/images/main_logo.jpg" alt="logo" /></a>
+            </div>
+            <div class="author-content">
+              <h4>FOOTBALL PREDICTIONS</h4>
+              <span>M.SOCZI
+                <br>
+                Last update:
+                <script>
+                let text = document.lastModified;
+                document.write(new Date(document.lastModified).toLocaleDateString());
+                </script>
+              </span>
+            </div>
+            <nav class="main-nav" role="navigation">
+              <ul class="main-menu">
+                <li><a href="#section1">Info</a></li>
+                <li><a href="#section2">Premier League</a></li>
+                <li><a href="#section3">Bundesliga</a></li>
+                <li><a href="#section4">Serie A</a></li>
+                <li><a href="#section5">LaLiga</a></li>
+                <li><a href="#section6">Ligue 1</a></li>
+                <li><a href="#section7">Model Performance</a></li>
+              </ul>
+            </nav>
+            <!--
+            <div class="social-network">
+              <ul class="soial-icons">
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-dribbble"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-rss"></i></a>
+                </li>
+              </ul>
+            </div>
+            -->
+            <div class="copyright-text">
+              <p>
+              Copyright 2021 Mateusz Soczewka<br>
+              Design: Mateusz Soczewka
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="section about-me" data-section="section1">
+        <div class="container">
+        <div class="top-header">
+        	<img src="assets/images/soccer.jpg" alt="soccer" />
+        </div>
+          <div class="section-heading">
+          
+            <h2>About project</h2>
+            <div class="line-dec"></div>
+            <span>
+            On this page you will find forecasts for the top European football leagues for upcoming matches.<br>
+            More info on <a href="https://github.com/msoczi/football_predictions">GitHub</a>.
+            <br>
+            <br>
+            <b>Legend:</b><br>
+            <b>Home</b> - Home team name<br>
+            <b>Away</b> - Away team name<br>
+            <b>P(H)</b> - home team win probability<br>
+            <b>P(D)</b> - draw probability<br>
+            <b>P(A)</b> - away team win probability<br>
+            <b>Prediction</b> - forecast, whether the home or away team win the match
+            </span>
+          </div>
+        </div>
+      </section>
+      
+
+      <section class="section about-me" data-section="section2">
+        <div class="container">
+        
+        <h4>Premier League</h4>
+        <!-- PremierLeague -->
+        
+        </div>
+      </section>
+      
+      
+      
+      <section class="section about-me" data-section="section3">
+        <div class="container">
+        
+        <h4>Bundesliga</h4>
+        <!-- Bundesliga -->
+        
+        </div>
+      </section>
+      
+      
+      
+      <section class="section about-me" data-section="section4">
+        <div class="container">
+        
+        <h4>Serie A</h4>
+        <!-- SerieA -->
+        
+        </div>
+      </section>
+      
+      
+      
+      <section class="section about-me" data-section="section5">
+        <div class="container">
+        
+        <h4>LaLiga</h4>
+        <!-- LaLiga -->
+        
+        </div>
+      </section>
+      
+      
+      
+      <section class="section about-me" data-section="section6">
+        <div class="container">
+        
+        <h4>Ligue 1</h4>
+        <!-- Ligue1 -->
+        
+        </div>
+      </section>
+      
+      
+      
+      
+      
+      
+      <!-- Table with model performance -->
+      <section class="section about-me" data-section="section7">
+        <div class="container">
+        
+        <h4>Model Performance</h4>
+        
+        <h5>Accuracy - Season 2021/2022</h5>
+            <table border="3" class="dataframe content-table">
+            <thead>
+                <tr style="text-align: center;">
+                <th>League</th>
+                <th>Accuracy</th>
+                <th>Balanced Accuracy</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Premier League</td>
+                <td>45%</td>
+                <td>42%</td>
+                </tr>
+                <tr>
+                <td>Bundesliga</td>
+                <td>49%</td>
+                <td>45%</td>
+                </tr>
+                <tr>
+                <td>Serie A</td>
+                <td>49%</td>
+                <td>46%</td>
+                </tr>
+                <tr>
+                <td>La Liga</td>
+                <td>49%</td>
+                <td>48%</td>
+                </tr>
+                <tr>
+                <td>Ligue 1</td>
+                <td>48%</td>
+                <td>46%</td>
+                </tr>
+                </tbody>
+            </table>
+        
+        
+        
+        
+        <h5>Premier League</h5>
+            <table border="3" class="dataframe content-table">
+            <thead>
+                <tr style="text-align: center;">
+                <th>Group</th>
+                <th>Precision</th>
+                <th>Recall</th>
+                <th>F1-Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Away</td>
+                <td>0.50</td>
+                <td>0.43</td>
+                <td>0.46</td>
+                </tr>
+                <tr>
+                <td>Draw</td>
+                <td>0.22</td>
+                <td>0.26</td>
+                <td>0.24</td>
+                </tr>
+                <tr>
+                <td>Home</td>
+                <td>0.57</td>
+                <td>0.57</td>
+                <td>0.57</td>
+                </tr>
+                </tbody>
+            </table>
+            
+        <h5>Bundesliga</h5>
+            <table border="3" class="dataframe content-table">
+            <thead>
+                <tr style="text-align: center;">
+                <th>Group</th>
+                <th>Precision</th>
+                <th>Recall</th>
+                <th>F1-Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Away</td>
+                <td>0.40</td>
+                <td>0.58</td>
+                <td>0.47</td>
+                </tr>
+                <tr>
+                <td>Draw</td>
+                <td>0.30</td>
+                <td>0.18</td>
+                <td>0.23</td>
+                </tr>
+                <tr>
+                <td>Home</td>
+                <td>0.65</td>
+                <td>0.59</td>
+                <td>0.62</td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <h5>Serie A</h5>
+            <table border="3" class="dataframe content-table">
+            <thead>
+                <tr style="text-align: center;">
+                <th>Group</th>
+                <th>Precision</th>
+                <th>Recall</th>
+                <th>F1-Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Away</td>
+                <td>0.54</td>
+                <td>0.60</td>
+                <td>0.57</td>
+                </tr>
+                <tr>
+                <td>Draw</td>
+                <td>0.22</td>
+                <td>0.14</td>
+                <td>0.17</td>
+                </tr>
+                <tr>
+                <td>Home</td>
+                <td>0.54</td>
+                <td>0.63</td>
+                <td>0.58</td>
+                </tr>
+                </tbody>
+            </table>
+            
+        <h5>La Liga</h5>
+            <table border="3" class="dataframe content-table">
+            <thead>
+                <tr style="text-align: center;">
+                <th>Group</th>
+                <th>Precision</th>
+                <th>Recall</th>
+                <th>F1-Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Away</td>
+                <td>0.43</td>
+                <td>0.37</td>
+                <td>0.40</td>
+                </tr>
+                <tr>
+                <td>Draw</td>
+                <td>0.38</td>
+                <td>0.47</td>
+                <td>0.42</td>
+                </tr>
+                <tr>
+                <td>Home</td>
+                <td>0.63</td>
+                <td>0.59</td>
+                <td>0.61</td>
+                </tr>
+                </tbody>
+            </table>
+            
+        <h5>Ligue 1</h5>
+            <table border="3" class="dataframe content-table">
+            <thead>
+                <tr style="text-align: center;">
+                <th>Group</th>
+                <th>Precision</th>
+                <th>Recall</th>
+                <th>F1-Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Away</td>
+                <td>0.42</td>
+                <td>0.46</td>
+                <td>0.44</td>
+                </tr>
+                <tr>
+                <td>Draw</td>
+                <td>0.34</td>
+                <td>0.33</td>
+                <td>0.33</td>
+                </tr>
+                <tr>
+                <td>Home</td>
+                <td>0.61</td>
+                <td>0.59</td>
+                <td>0.60</td>
+                </tr>
+                </tbody>
+            </table>
+        
+        </div>
+      </section>
+      
+
+    </div>
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      //according to loftblog tut
+      $(".main-menu li:first").addClass("active");
+
+      var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+          reqSection = $(".section").filter(
+            '[data-section="' + direction + '"]'
+          ),
+          reqSectionPos = reqSection.offset().top - 0;
+
+        if (isAnimate) {
+          $("body, html").animate(
+            {
+              scrollTop: reqSectionPos
+            },
+            800
+          );
+        } else {
+          $("body, html").scrollTop(reqSectionPos);
+        }
+      };
+
+      var checkSection = function checkSection() {
+        $(".section").each(function() {
+          var $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var currentId = $this.data("section"),
+              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            reqLink
+              .closest("li")
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
+          }
+        });
+      };
+
+      $(".main-menu").on("click", "a", function(e) {
+        e.preventDefault();
+        showSection($(this).attr("href"), true);
+      });
+
+      $(window).scroll(function() {
+        checkSection();
+      });
+    </script>
+  </body>
+</html>
