@@ -3,7 +3,7 @@
 > AI-powered football prediction engine built by a team of ML engineers and data scientists.
 > The model is fully open source — no black box, no hidden logic. Read the code. Run it yourself. We have nothing to hide.
 
-**Telegram: [@FootballGPT_AR](https://t.me/FootballGPT_AR) | Contact: [@nuamansp](https://t.me/nuamansp)**
+**Telegram: [@FootballGPT_AR](https://t.me/FootballGPT_AR) | Contact: [@NicoFootballGPT](https://t.me/NicoFootballGPT)**
 
 
 ## 🤖 What is FootballGPT?
@@ -116,7 +116,7 @@ All daily predictions, analysis and weekly reports are published on our Telegram
 
 For questions about the model or the system:
 
-👤 **[@nuamansp](https://t.me/nuamansp)**
+👤 **[@NicoFootballGPT](https://t.me/NicoFootballGPT)**
 
 ---
 
@@ -205,4 +205,4 @@ MIT License — open source, free to use, free to modify.
 > الكورة مشي حظ — هي رياضيات
 
 **Built with ❤️ by the FootballGPT Team**
-**Telegram: [@FootballGPT_AR](https://t.me/FootballGPT_AR) | Contact: [@nuamansp](https://t.me/nuamansp)**
+**Telegram: [@FootballGPT_AR](https://t.me/FootballGPT_AR) | Contact: [@NicoFootballGPT](https://t.me/NicoFootballGPT)**
